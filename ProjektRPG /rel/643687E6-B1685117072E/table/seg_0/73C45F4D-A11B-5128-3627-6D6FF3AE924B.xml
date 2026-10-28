@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73C45F4D-A11B-5128-3627-6D6FF3AE924B" name="PlayerAccount">
+<createdBy>szymo</createdBy>
+<createdTime>2026-10-27 12:42:22 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PlayerAccountKey" id="96A8BC6B-710E-E348-90B7-3635BD94EC2E">
+<createdBy>szymo</createdBy>
+<createdTime>2026-10-27 12:44:24 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PlayerLogin" id="12F013DE-7077-9AD1-B895-A90EAA02B9ED">
+<createdBy>szymo</createdBy>
+<createdTime>2026-10-27 12:44:24 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Password" id="6E677FF1-A8A7-54EB-9FD4-5249284EAE19">
+<createdBy>szymo</createdBy>
+<createdTime>2026-10-27 12:44:24 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="E01283FA-774C-334C-2AE6-91FBD92B9AE8">
+<createdBy>szymo</createdBy>
+<createdTime>2026-10-27 12:44:24 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RegistrationDate" id="FFD7A9D9-7B88-2B04-37D8-A31A1024D9BE">
+<createdBy>szymo</createdBy>
+<createdTime>2026-10-27 12:44:24 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7AAE0C3C-8F7B-2161-5EF1-160EDC26D0DD" name="PlayerAccount_PK">
+<createdBy>szymo</createdBy>
+<createdTime>2026-10-27 12:44:24 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96A8BC6B-710E-E348-90B7-3635BD94EC2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B71B7236-AE4A-8E89-8DCA-B33FF680F032" name="PlayerAccountLogin_UN">
+<createdBy>szymo</createdBy>
+<createdTime>2026-10-27 12:44:24 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12F013DE-7077-9AD1-B895-A90EAA02B9ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07E5AFC2-382E-5C45-3AF3-B4A6E89BBAFA" name="PlayerAccountEmail_UN">
+<createdBy>szymo</createdBy>
+<createdTime>2026-10-27 12:44:32 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E01283FA-774C-334C-2AE6-91FBD92B9AE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8884BEEC-D94D-BE49-A23E-C857358D35C9" name="CharacterStatistic">
+<createdBy>vovay</createdBy>
+<createdTime>2026-10-27 19:39:39 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CharacterKey" id="E41220CE-FAD4-CFC2-F1A6-83BCB11AD6FC">
+<createdBy>vovay</createdBy>
+<createdTime>2026-10-27 19:48:21 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F2E3C6D-C22F-0B3E-1FA8-556B6419DA41" referredColumn="EBE33C85-580C-8763-13B1-EC57B5232655"/>
+</associations>
+</Column>
+<Column name="Strength" id="5E8F045C-733F-C17C-2D0B-E1B6CF04C2A7">
+<createdBy>vovay</createdBy>
+<createdTime>2026-10-27 19:48:21 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vitality" id="94F9C0AF-835C-3973-B206-8AB151848F92">
+<createdBy>vovay</createdBy>
+<createdTime>2026-10-27 19:48:21 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Armor" id="2EAD6C8B-9AD5-B1A6-A153-180C2309426A">
+<createdBy>vovay</createdBy>
+<createdTime>2026-10-27 19:48:21 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MagicArmor" id="459D6095-82FC-3758-E361-9EC2BD9FD62F">
+<createdBy>vovay</createdBy>
+<createdTime>2026-10-27 19:48:21 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MagicAttack" id="FBBC31F7-A4BC-1E99-AF64-F4B0ADAC3C1F">
+<createdBy>vovay</createdBy>
+<createdTime>2026-10-27 19:48:21 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Speed" id="53AB0011-B517-9113-E5A4-41DE3D137104">
+<createdBy>vovay</createdBy>
+<createdTime>2026-10-27 19:48:21 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BBBF352E-BA15-D8E1-3D4D-B8974F1A8BAB" name="CharacterStatistic_PK">
+<createdBy>vovay</createdBy>
+<createdTime>2026-10-27 19:48:21 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E41220CE-FAD4-CFC2-F1A6-83BCB11AD6FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C053D351-7951-73D9-BCB6-9325E4EC4E1E" name="CharacterStatistic_Character_FK">
+<createdBy>vovay</createdBy>
+<createdTime>2026-10-27 20:49:21 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E41220CE-FAD4-CFC2-F1A6-83BCB11AD6FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
