@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="74DBD914-06BF-DAEE-8C30-00AD789A8433" containerWithKeyObject="A637CF70-5FE4-104E-5B96-70D1C09FD1C9" localFKIndex="70CA0704-444D-49D2-692A-AD9101B70E83" name="ItemModifier_ItemStatType_FK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-03 17:28:37 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<referredTableLongName>ItemStatType</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B9DCE0FD-A796-10BD-57FF-780EAD4BB857</referredTableID>
+<keyObject>7D259AFC-2BFA-E80B-CB33-256BA65DF325</keyObject>
+<referredKeyID>7D259AFC-2BFA-E80B-CB33-256BA65DF325</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ItemStatTypeKey</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
