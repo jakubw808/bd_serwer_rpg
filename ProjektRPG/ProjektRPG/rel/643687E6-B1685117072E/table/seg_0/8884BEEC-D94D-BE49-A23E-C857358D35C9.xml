@@ -8,17 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="EntityStatisticsKey" id="E41220CE-FAD4-CFC2-F1A6-83BCB11AD6FC">
-<createdBy>vovay</createdBy>
-<createdTime>2026-10-27 19:48:21 UTC</createdTime>
-<ownerDesignName>ProjektRPG</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>16</dataTypePrecision>
-<ownDataTypeParameters>,16,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="Strength" id="5E8F045C-733F-C17C-2D0B-E1B6CF04C2A7">
 <createdBy>vovay</createdBy>
 <createdTime>2026-10-27 19:48:21 UTC</createdTime>
@@ -85,6 +74,21 @@
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="EntityKey" id="4EA95D71-3F65-F085-72B4-2598EAC49594">
+<createdBy>szymo</createdBy>
+<createdTime>2026-11-03 13:21:53 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F20C24FA-E58C-AD0B-0256-4074360F3C11" referredColumn="F02D379F-66AF-4BF4-C435-DA85F8D9981D"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="BBBF352E-BA15-D8E1-3D4D-B8974F1A8BAB" name="CharacterStatistic_PK">
@@ -95,7 +99,17 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E41220CE-FAD4-CFC2-F1A6-83BCB11AD6FC"/>
+<colUsage columnID="4EA95D71-3F65-F085-72B4-2598EAC49594"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85AA89E9-FA66-5B1D-6802-05DD3968FDF0" name="EntityStatistic_Entity_FK">
+<createdBy>szymo</createdBy>
+<createdTime>2026-11-03 13:21:53 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EA95D71-3F65-F085-72B4-2598EAC49594"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
