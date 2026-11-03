@@ -26,30 +26,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="PlayerAccountKey" id="19E92ADD-BF28-5C29-6351-AD774B1FEAD4">
-<createdBy>szymo</createdBy>
-<createdTime>2026-10-27 12:47:31 UTC</createdTime>
-<ownerDesignName>ProjektRPG</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="AdminAccountKey" id="79B74C12-89D1-9F87-71B1-009004F7E89B">
-<createdBy>szymo</createdBy>
-<createdTime>2026-10-27 12:49:56 UTC</createdTime>
-<ownerDesignName>ProjektRPG</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="UserTypeKey" id="53AE08BE-E18F-EA10-2F7A-8419A4FD16D8">
@@ -108,6 +86,17 @@
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IsBanned" id="844BEFF1-C7A8-7492-6788-CF15AC61497B">
+<createdBy>szymo</createdBy>
+<createdTime>2026-11-03 13:46:30 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

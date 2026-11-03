@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9FEADB35-57D7-F03E-3E8A-6DFE23BBE8A1" name="Monster">
+<createdBy>szymo</createdBy>
+<createdTime>2026-11-03 13:11:39 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MonsterName" id="C42225A0-8D3A-2C57-5F93-A2EED7B94F09">
+<createdBy>szymo</createdBy>
+<createdTime>2026-11-03 13:12:39 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MonsterLevel" id="7C0437B7-4B46-91DF-0C2E-3B2AB6C13C97">
+<createdBy>szymo</createdBy>
+<createdTime>2026-11-03 13:12:39 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EntityKey" id="982B1EDE-8A1E-5929-9943-2F2893A1E64C">
+<createdBy>szymo</createdBy>
+<createdTime>2026-11-03 13:12:48 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B89A200-0E76-FE4B-C789-09943C0F5067" referredColumn="F02D379F-66AF-4BF4-C435-DA85F8D9981D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38CFE2B8-1822-CD73-693A-13CF4921B6F8" name="Monster_PK">
+<createdBy>szymo</createdBy>
+<createdTime>2026-11-03 13:13:07 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="982B1EDE-8A1E-5929-9943-2F2893A1E64C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38D35D01-151E-67FB-3AC0-8191CFBBEBD3" name="MonsterName_UN">
+<createdBy>szymo</createdBy>
+<createdTime>2026-11-03 13:20:13 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C42225A0-8D3A-2C57-5F93-A2EED7B94F09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9283783B-9362-99F3-09F1-CB93613A26C6" name="Monster_Entity_FK">
+<createdBy>szymo</createdBy>
+<createdTime>2026-11-03 13:12:48 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="982B1EDE-8A1E-5929-9943-2F2893A1E64C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

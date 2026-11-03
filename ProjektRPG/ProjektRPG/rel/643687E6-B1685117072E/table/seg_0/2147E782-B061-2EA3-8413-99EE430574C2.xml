@@ -30,7 +30,7 @@
 <ownDataTypeParameters>25,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Stats" id="D96642B6-391D-5246-7E2D-37B029B2059C">
+<Column name="ItemStats" id="D96642B6-391D-5246-7E2D-37B029B2059C">
 <createdBy>szymo</createdBy>
 <createdTime>2026-10-27 12:58:45 UTC</createdTime>
 <ownerDesignName>ProjektRPG</ownerDesignName>
@@ -41,7 +41,7 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="BasePrice" id="6A06AA10-DED4-F6C7-AC58-14D44E1B8FAC">
+<Column name="ItemBasePrice" id="6A06AA10-DED4-F6C7-AC58-14D44E1B8FAC">
 <createdBy>szymo</createdBy>
 <createdTime>2026-10-27 12:58:45 UTC</createdTime>
 <ownerDesignName>ProjektRPG</ownerDesignName>
