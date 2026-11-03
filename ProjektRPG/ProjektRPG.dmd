@@ -1,8 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ProjektRPG" id="3A6ADA2E-8D86-5CCE-48EB-50BDCBAC7232" version="3.5">
-<createdBy>szymo</createdBy>
-<createdTime>2026-10-27 12:41:17 UTC</createdTime>
-<ownerDesignName>Projekt</ownerDesignName>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ProjektRPG" id="3DA7063F-6AE2-C1DC-7615-7C122DCB88F3" version="3.5">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-03 17:08:19 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
 <capitalNames>false</capitalNames>
-<designId>3A6ADA2E-8D86-5CCE-48EB-50BDCBAC7232</designId>
+<designId>3DA7063F-6AE2-C1DC-7615-7C122DCB88F3</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="3A6ADA2E-8D86-5CCE-48EB-50BDCBAC7232">
+<designStoragePath>/home/miodzio/Projekty/bd_rpg/ProjektRPG/ProjektRPG</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
 </OSDM_Design>

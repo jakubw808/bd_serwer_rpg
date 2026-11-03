@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="61B5D8F3-0EA5-0069-2D91-CC4A90E24302" name="UserPenalty">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-03 17:08:41 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>5C649276-34B6-6BEB-6507-47DC08F63612</importedID>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UserPenaltyKey" id="FF4D753D-DFF1-2544-E1FA-F1C2A46B4473">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-03 17:08:41 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>73BD7942-043D-2977-74D3-7B65A782665E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Reason" id="BC32309C-A9E2-2965-D436-CE90F2ADBD8C">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-03 17:08:41 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>9B08F14C-82FB-6098-D68B-E7DD39A60BBF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PenaltyIssuedat" id="E70078C2-3D17-B6BC-C4FF-3341FA18EFE6">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-03 17:08:41 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>29496E0C-4AE4-8AFB-F9D6-218F1805E1F5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PenaltyExpiresat" id="F7B51029-6AD8-3F48-ECF9-84355315EE96">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-03 17:08:41 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>10F27CB6-11D4-AAAE-1512-83FEDE8D27A1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UserAccountKey" id="6379B5FC-68C3-CB99-A083-CF0EAE7947D7">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-03 17:08:41 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>AF1FF0B0-45BE-6195-D7FA-97596A0F0FA4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE313124-64BF-872E-E63A-BB12354E0BC4" referredColumn="09A22541-A5B9-4653-244C-B1C603C10138"/>
+</associations>
+</Column>
+<Column name="AdminUserAccountKey" id="D10CA9F6-858D-8ED0-DEFB-C5E86CB1272C">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-03 17:08:41 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>B7FB1434-C292-4660-0DF7-C9A82AF0CF23</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA340433-B723-ECB9-CD04-CFD207A4F187" referredColumn="09A22541-A5B9-4653-244C-B1C603C10138"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91553651-F5FA-13C4-5F41-71995CEF6B58" name="UserPenalty_PK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-03 17:08:41 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>5549ACC4-8336-81A1-939B-14A778FD8738</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF4D753D-DFF1-2544-E1FA-F1C2A46B4473"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFC6C885-68F0-AE11-5743-B35DE6885255" name="UserPenalty_User_FK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-03 17:08:41 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6379B5FC-68C3-CB99-A083-CF0EAE7947D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20CBAF79-EC96-ACE7-6624-44726050311B" name="UserPenalty_User_FKv2">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-03 17:08:41 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D10CA9F6-858D-8ED0-DEFB-C5E86CB1272C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

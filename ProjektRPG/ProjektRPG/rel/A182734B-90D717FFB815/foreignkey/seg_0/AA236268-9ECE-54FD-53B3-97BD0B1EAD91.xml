@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AA236268-9ECE-54FD-53B3-97BD0B1EAD91" containerWithKeyObject="DEF5DFC3-7503-03CC-EF94-041C832A2FA6" localFKIndex="483CECBB-CCB5-F629-BEC9-A3307EAEA261" name="Item_ItemRarity_FK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-03 17:08:41 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>0DC175B1-E7D4-AEAF-F3FD-A41745CFD975</importedID>
+<referredTableLongName>ItemRarity</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7252D8D7-55A7-044E-EC48-D46933A4C424</referredTableID>
+<keyObject>B295274A-264C-23B8-648D-3BE53B827C34</keyObject>
+<referredKeyID>B295274A-264C-23B8-648D-3BE53B827C34</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ItemRarityKey</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
