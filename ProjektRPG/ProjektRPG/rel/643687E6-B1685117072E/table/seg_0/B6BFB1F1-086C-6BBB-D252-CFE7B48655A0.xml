@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6BFB1F1-086C-6BBB-D252-CFE7B48655A0" name="Character">
+<createdBy>szymo</createdBy>
+<createdTime>2026-10-27 12:52:40 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CharacterKey" id="EBE33C85-580C-8763-13B1-EC57B5232655">
+<createdBy>szymo</createdBy>
+<createdTime>2026-10-27 12:53:13 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="249EA479-D492-BDB1-3B6F-F439CE3B78C1">
+<createdBy>szymo</createdBy>
+<createdTime>2026-10-27 12:54:25 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Level" id="B22183FC-D9E3-519F-CBEF-C8AF6354B78F">
+<createdBy>szymo</createdBy>
+<createdTime>2026-10-27 12:54:25 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Experience" id="4CF6C9AD-AC4A-9CFA-9346-CC6D1A6EDB87">
+<createdBy>szymo</createdBy>
+<createdTime>2026-10-27 12:54:25 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CurrencyAmount" id="ED6FAD53-CF08-D32C-57A1-57E44070D5EF">
+<createdBy>szymo</createdBy>
+<createdTime>2026-10-27 12:54:25 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PlayerAccountKey" id="207675AA-F12C-A1C9-6A52-AF69E7FF7E1F">
+<createdBy>szymo</createdBy>
+<createdTime>2026-10-27 12:54:30 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UserAccountKey" id="C7005C7D-8838-B5D7-8934-1CFA10E14AD0">
+<createdBy>szymo</createdBy>
+<createdTime>2026-10-28 17:41:03 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5D160DE-8468-ECBA-87CD-40776CA16E3F" referredColumn="951582C1-FBA7-5F23-DA35-3126E6457F70"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="152A6CB7-FF42-A00A-BFAA-F04190552C35" name="Character_PK">
+<createdBy>szymo</createdBy>
+<createdTime>2026-10-27 12:53:13 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBE33C85-580C-8763-13B1-EC57B5232655"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="083D7507-F946-7DB4-970D-93F6AF5C3712" name="CharacterName_UN">
+<createdBy>szymo</createdBy>
+<createdTime>2026-10-27 12:54:25 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="249EA479-D492-BDB1-3B6F-F439CE3B78C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9569F9D0-8595-C443-4DEA-9457506BC932" name="Character_User_FK">
+<createdBy>szymo</createdBy>
+<createdTime>2026-10-28 17:41:03 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7005C7D-8838-B5D7-8934-1CFA10E14AD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
