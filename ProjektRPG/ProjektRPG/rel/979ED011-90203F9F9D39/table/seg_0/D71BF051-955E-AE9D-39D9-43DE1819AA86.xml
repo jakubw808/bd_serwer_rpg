@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D71BF051-955E-AE9D-39D9-43DE1819AA86" name="EntityStatistic">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 17:28:20 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>E549E05A-9D4E-C8D3-DDB3-28D4DC971F64</importedID>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Strength" id="4E9BD27C-405C-3E80-0934-B1CB7353EF56">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 17:28:20 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>640BE772-B983-EF67-C4FD-908070154756</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vitality" id="448A5EB8-EB33-39BE-9869-458ACF4C1017">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 17:28:20 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>66ED8E4A-6392-46CD-5D44-440B0DCB2F67</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Armor" id="2344D23D-E1FC-389C-8135-4D162DD6ECB4">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 17:28:20 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>856F4AE0-D87A-2101-7527-F447BEACC24F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MagicArmor" id="39CFF3B9-B3C0-5295-44D0-6631706BEADB">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 17:28:20 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>78513FA6-A01F-0FE7-718F-FF4EAD7F995A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MagicAttack" id="75F97633-8453-AC9E-2DB2-473CDD8A20F2">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 17:28:20 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>6D28C157-4E81-9C59-8B19-E280171A68FF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Speed" id="7EF51D29-D806-F676-593B-B0861507AF59">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 17:28:20 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>F9C05C4E-2FF4-C5A8-6EB8-F1D152813D24</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EntityKey" id="D2277B5B-1CFC-F965-FA5C-C8D2D94345E3">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 17:28:20 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>8D10400F-A0DE-B392-50F3-5DC35DD83FFF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75F1EE8F-2BFE-47F8-CD6D-52F2B3D538C6" referredColumn="43E1991E-4C42-7088-7545-6E0348D8CB0A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D3ED8763-9523-B2C2-7BFD-AE7C80D8F644" name="CharacterStatistic_PK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 17:28:20 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>756A0DFA-440C-D8DB-8090-7897812327D5</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2277B5B-1CFC-F965-FA5C-C8D2D94345E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56691B43-56D9-95D4-1857-4F37E22E1F5D" name="EntityStatistic_Entity_FK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 17:28:20 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2277B5B-1CFC-F965-FA5C-C8D2D94345E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8BAB77A4-47E6-A97C-B82B-CB2133072671" name="ItemType">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 17:28:20 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>879912C5-D78A-D929-8FC3-51F36069DB9D</importedID>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ItemTypeKey" id="0DBBB6A3-4DE8-AD8D-E86C-DB2E522955D8">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 17:28:20 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>CC788231-54F1-7C9F-BABD-375F25641A25</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<ownDataTypeParameters>,16,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ItemTypeName" id="8AAE54FB-5D1E-CB9E-2427-E451C062A864">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 17:28:20 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>A6FB3F4B-FDD9-E637-CB43-9C2D4ECAFB82</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3345749-F4C6-03CF-B7AA-7B3E2E6A165B" name="ItemTypes_PK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 17:28:20 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>3CFCE19C-0271-F2B0-D7CA-5BDFAED65D9E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DBBB6A3-4DE8-AD8D-E86C-DB2E522955D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EA09658-1514-7B65-A78F-44990B545752" name="ItemTypeName_UN">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 17:28:20 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>86DE2CFD-952C-15E4-AFCE-2594B6872ACB</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AAE54FB-5D1E-CB9E-2427-E451C062A864"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
