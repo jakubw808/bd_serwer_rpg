@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B723297-A8BC-550D-4FB0-936AE5D3FDAF" name="ItemStatType">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 17:28:20 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>4C66FBCA-BF85-BC54-E1FA-5D54682CEC56</importedID>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ItemStatTypeKey" id="024FD67C-961D-29BC-0328-04F0DB92369E">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 17:28:20 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>D27B3577-EB4A-2A0D-A347-BF5540883A63</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ItemStatCode" id="172CCB86-B8D8-AF81-66AD-D672BDFB2205">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 17:28:20 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>66F9C976-3FBE-4A3A-5832-EEC5ACA1664B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ItemStatName" id="A2F1F5BA-BB2D-D9E2-DBA1-A87B9E8668E0">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 17:28:20 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>1382AEEB-7B4D-3128-E44D-ECB6A9FF4DA3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ItemStatUnit" id="8957996C-BBF5-78B9-90AE-7EF8130C9BD6">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 17:28:20 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>2F823237-EF1A-C40E-89B4-0DBCC097983E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C21C697-B3B2-DB3F-359F-882252957EB8" name="ItemStatType_PK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 17:28:20 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>E186A66C-1C8E-392A-FBE4-52E8331C9C8C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="024FD67C-961D-29BC-0328-04F0DB92369E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
