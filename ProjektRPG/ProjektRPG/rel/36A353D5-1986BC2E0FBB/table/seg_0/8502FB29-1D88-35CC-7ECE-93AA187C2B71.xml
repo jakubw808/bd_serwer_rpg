@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8502FB29-1D88-35CC-7ECE-93AA187C2B71" name="Entity">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:49:28 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>77EF0BBA-8FAD-4762-68AC-E5039C42AB87</importedID>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EntityKey" id="95B9C4AA-53C1-8194-1155-FFD053163D3F">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:49:28 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>C0160CEA-E587-9A3B-CC88-900E92CAC102</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EntityTypeKey" id="C189AD99-63E5-EDD0-70D2-3A1DE6FA2CD3">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:49:28 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>54C24E58-FA54-12DE-5BE9-594DFA9F292A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9ED71AE-B2E1-1079-E052-6F1D607EC74F" referredColumn="193B054D-28EC-298A-F43C-5FCFC96A851E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E3D7D0C-E1A4-D5C2-9EB1-66515A0A99A8" name="Entity_PK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:49:28 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>4E3E222E-DF8B-6D1D-EB5B-19EEE7C94CF5</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95B9C4AA-53C1-8194-1155-FFD053163D3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="667C2B6A-039C-05FE-D0E5-1FD91BF21652" name="Entity_EntityTypeKey_FK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:49:28 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C189AD99-63E5-EDD0-70D2-3A1DE6FA2CD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

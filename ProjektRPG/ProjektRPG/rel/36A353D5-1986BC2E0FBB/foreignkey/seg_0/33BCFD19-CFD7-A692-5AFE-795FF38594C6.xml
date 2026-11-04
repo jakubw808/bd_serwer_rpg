@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="33BCFD19-CFD7-A692-5AFE-795FF38594C6" containerWithKeyObject="84D3703D-8F33-D4D8-7613-E3696AD65A75" localFKIndex="9666D23D-70AB-2168-7974-6DCF2392EE42" name="CharacterInventoryLog_Character_FKv2">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 17:11:31 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<referredTableLongName>Character</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DFC144E4-1246-A422-DE37-63682486CAD8</referredTableID>
+<keyObject>09AA76DE-981B-B301-6D8A-E8FAD329D187</keyObject>
+<referredKeyID>09AA76DE-981B-B301-6D8A-E8FAD329D187</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>EntityKey</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

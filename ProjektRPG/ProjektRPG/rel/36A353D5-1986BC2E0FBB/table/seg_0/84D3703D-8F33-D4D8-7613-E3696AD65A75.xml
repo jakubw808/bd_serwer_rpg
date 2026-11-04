@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84D3703D-8F33-D4D8-7613-E3696AD65A75" name="CharacterInventoryLog">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:49:28 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>5E7232A4-F238-AFB8-7788-07D9653BA305</importedID>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="InventoryLogKey" id="D3BBECEE-3CD0-BA85-FF3A-05CD7C11E32A">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:49:28 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>E06F3CD3-A828-C62A-4651-1746A3643008</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EntityKey" id="4CA47C9C-6003-F9A1-37E2-10E580A9D672">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:49:28 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>317366A6-88D0-3AB0-1EAD-894BF6A6AFB0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="325A6E00-5CC5-95AF-2629-84B267F2C205" referredColumn="B9917831-A4AD-579A-E04C-69A500638866"/>
+</associations>
+</Column>
+<Column name="TargetEntityKey" id="8D78B541-5359-F243-4646-0B19C3DD691A">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 17:11:03 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33BCFD19-CFD7-A692-5AFE-795FF38594C6" referredColumn="B9917831-A4AD-579A-E04C-69A500638866"/>
+</associations>
+</Column>
+<Column name="ItemKey" id="FF122724-CC16-0283-94D5-1C6313AD4111">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:49:28 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>E557DBDD-9049-5858-0CE5-50FB9FE15F77</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BA24ABE-60DD-AC36-ABB1-FB11CE96F6AD" referredColumn="107186B4-7596-A339-A689-76E5CC1E1C9A"/>
+</associations>
+</Column>
+<Column name="ActionType" id="425B0863-C743-075B-C911-D38E4D1BBE7D">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:49:28 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>567C65D5-4B42-FD28-49F6-90AD3A600E78</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QuantityDelta" id="1746D63E-55E3-3278-AA5C-8D7295BA5626">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:49:28 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>BFF23A94-84C7-16FE-65BE-95D70C1F7490</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LogTimestamp" id="4B5D0E43-AB08-643F-67B1-D7E3BC1D7021">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:49:28 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>27FD9A68-C684-4C1B-4519-C26247AE6417</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SourceContext" id="DB10C9F1-8C6C-8C26-F827-516948BE29EE">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:49:28 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>D28C8C78-ABFC-184A-FF23-2369AA1C5681</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6AE985B0-832A-DFA5-54E8-94BEE968BCDA" name="CharacterInventoryLog_PK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:49:28 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>CBCCF8B8-E83A-3617-A620-1F4F9BD02FD2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3BBECEE-3CD0-BA85-FF3A-05CD7C11E32A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48ED1A78-6D6E-6B6B-E772-F46C80226448" name="CharacterInventoryLog_Character_FK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:49:28 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CA47C9C-6003-F9A1-37E2-10E580A9D672"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="204B1CC9-BA26-92FA-58C2-F4E049AB790F" name="CharacterInventoryLog_Item_FK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:49:28 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF122724-CC16-0283-94D5-1C6313AD4111"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9666D23D-70AB-2168-7974-6DCF2392EE42" name="CharacterInventoryLog_Character_FKv2">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 17:11:31 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D78B541-5359-F243-4646-0B19C3DD691A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

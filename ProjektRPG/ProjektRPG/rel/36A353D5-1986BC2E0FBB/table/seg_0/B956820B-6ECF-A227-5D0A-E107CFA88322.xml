@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B956820B-6ECF-A227-5D0A-E107CFA88322" name="VendorNPC">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:51:43 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EntityKey" id="7FE49C4C-6FF4-3713-0C0C-D4A4DDCA41F3">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:54:10 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA0CFC34-9B62-4F55-EB71-96E24BED2858" referredColumn="95B9C4AA-53C1-8194-1155-FFD053163D3F"/>
+</associations>
+</Column>
+<Column name="VendorName" id="564D938F-E68D-FB00-C663-DB4C22C0FACE">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:55:49 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VendorPriceMargin" id="055611D1-57D6-7592-29B7-E667AE7CF962">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:58:26 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VendorBuybackMultiplier" id="BFF13163-FD91-72B9-79F4-7A81436C3D84">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:59:15 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F2153BE4-F675-645A-4A3B-A9FE4E6EAC59" name="VendorNPC_PK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:54:10 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FE49C4C-6FF4-3713-0C0C-D4A4DDCA41F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85EF812D-040F-5A75-8F61-1B45CE50C37F" name="VendorNPC_Entity_FK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:59:29 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FE49C4C-6FF4-3713-0C0C-D4A4DDCA41F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

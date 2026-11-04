@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3BD9776-5AD0-9CBB-5E92-7AADEF48699A" name="Monster">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:49:28 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>6F6F26A3-DDFE-5106-349B-54FEE3C4C1AD</importedID>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MonsterName" id="722ADC17-AF10-A6C7-4E21-AA9A5B1357A4">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:49:28 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>0704CEB1-8633-C51A-94CF-BC0A262284CF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MonsterLevel" id="7256F274-8621-48EC-C3DA-4D741F2544DB">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:49:28 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>13F6F1EE-7C8A-24C6-9B34-0E08880695D7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EntityKey" id="2E5D8340-C47F-1272-8A61-365B92CA00DF">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:49:28 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>4AA50D5D-6BD6-7653-2178-1B4A05E82BD4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4B957ED-2922-44E8-ACFC-0831C4FD8A2B" referredColumn="95B9C4AA-53C1-8194-1155-FFD053163D3F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F899CD75-DB49-2046-2BC7-B2EF622301BC" name="Monster_PK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:49:28 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>CEDA6AAD-7710-34AB-DAC1-9B6976759122</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E5D8340-C47F-1272-8A61-365B92CA00DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0FA3D56-9394-D210-84B9-A573A172A20F" name="MonsterName_UN">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:49:28 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>27C4A8D2-8199-9A18-B01A-A8FE8CF4DA1B</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="722ADC17-AF10-A6C7-4E21-AA9A5B1357A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDAF6B6E-4F43-B1E9-C666-698B5BB2A4E8" name="Monster_Entity_FK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-04 16:49:28 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E5D8340-C47F-1272-8A61-365B92CA00DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
