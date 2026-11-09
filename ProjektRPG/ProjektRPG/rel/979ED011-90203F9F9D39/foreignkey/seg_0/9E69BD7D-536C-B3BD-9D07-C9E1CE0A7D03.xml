@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9E69BD7D-536C-B3BD-9D07-C9E1CE0A7D03" containerWithKeyObject="EEE102E8-330E-4548-70D2-48537F74B0B0" localFKIndex="9FDC8F45-6165-88DD-9108-B92042A9E8E0" name="MonsterLoot_Monster_FK">
+<createdBy>vovay</createdBy>
+<createdTime>2026-11-09 03:54:40 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<referredTableLongName>Monster</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9EA5706B-8DC2-C967-22DB-FAB6814A04E3</referredTableID>
+<keyObject>F08FD357-A33F-CE93-31E6-9584C5F0AD2F</keyObject>
+<referredKeyID>F08FD357-A33F-CE93-31E6-9584C5F0AD2F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>EntityKey</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
