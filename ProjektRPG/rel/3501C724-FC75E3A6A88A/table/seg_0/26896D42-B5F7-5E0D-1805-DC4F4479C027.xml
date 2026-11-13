@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26896D42-B5F7-5E0D-1805-DC4F4479C027" name="MonsterTemplate">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 13:28:27 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MonsterTemplateKey" id="A0CB6460-A988-7DAA-342A-E61FE46F3A30">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 13:31:19 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MonsterName" id="BE91A167-3BAB-C0A6-A0F4-AE75BF72C4B8">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 13:31:19 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BaseLevel" id="21BD5BB5-F103-46DB-869D-DB9C8816090A">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 13:31:19 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MaxHP" id="2FF4037C-E12C-65AD-4314-D0B71EE283EB">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 13:31:19 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StatisticKey" id="A669C71A-4C23-A2FE-3806-88EC5D408045">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 13:31:19 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A84F01F4-8667-2AA2-DC8E-6D3E9D4E4B92" referredColumn="EEE5CB10-8083-D878-475E-FFDC985C00E7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CAEDBFD3-5CA5-F21C-B367-01CF572891BA" name="MonsterTemplate_PK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 13:31:19 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0CB6460-A988-7DAA-342A-E61FE46F3A30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34D2B483-B15D-A244-280D-365DAFA67821" name="MonsterTemplate_BaseStatistic_FK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 13:33:19 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A669C71A-4C23-A2FE-3806-88EC5D408045"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
