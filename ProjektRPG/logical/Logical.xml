@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="CE5D6566-9910-D71E-1882-9062B55ADDD2" mainViewID="0446129B-87F6-09C4-58BE-BC6AED441109">
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="A20B991E-6561-4BD2-0FFE-3FB1AC6B5D22" mainViewID="CB795F0F-957A-AC66-3409-6F22D0D6B9C9">
 <createdBy>miodzio</createdBy>
-<createdTime>2026-11-13 12:57:40 UTC</createdTime>
+<createdTime>2026-11-13 15:38:04 UTC</createdTime>
 <ownerDesignName>ProjektRPG</ownerDesignName>
 <shouldBeOpen>false</shouldBeOpen>
 </LogicalDesign>

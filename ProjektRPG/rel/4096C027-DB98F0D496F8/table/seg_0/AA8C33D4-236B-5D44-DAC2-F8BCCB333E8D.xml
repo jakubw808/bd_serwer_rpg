@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA8C33D4-236B-5D44-DAC2-F8BCCB333E8D" name="EntityType">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>AB2AFF64-0D9D-8389-7CB6-FDCB93395AA0</importedID>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EntityTypeKey" id="BEB37E12-9A22-C01C-24ED-080A2683FDF6">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>992DB282-221D-1056-2C97-084CD3F480D9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EntityTypeName" id="53972A03-57EF-5BE9-5F46-D72086EAA7F7">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>5BD220B8-A3F9-FE66-1A96-12FDB7296F4E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E955A61A-28D3-654D-C1B7-B13182E9F7E6" name="EntityTypeKey_PK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>5D884D96-20B4-7C6F-EB54-08A10604B42D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEB37E12-9A22-C01C-24ED-080A2683FDF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FF2B766-8CF0-37BD-1EA2-6830DDE671DD" name="EntityTypeName_UN">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>2C5F7380-6A29-BEBE-9934-8F8F0507FD77</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53972A03-57EF-5BE9-5F46-D72086EAA7F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

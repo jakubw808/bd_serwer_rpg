@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF2F5A3B-853E-0440-D721-D32C53A6BA0D" name="Character">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>3FC1971B-8CB0-5AF3-C1CB-4204941B6F16</importedID>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CharacterName" id="31BB597B-E850-94E7-BB38-548061B12BAD">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>A80B2A79-011E-49F3-DCD3-8EC75247FF09</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CharacterLevel" id="BBBF82FA-DBB7-7B76-24F4-8F6D91AD7036">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>F6D2774B-FA49-5E6D-3B9A-118E5286A98B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CharacterExperience" id="48FA016C-36E2-8055-6F2D-E7B81965FC72">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>5E2D4F1C-419D-11AA-DA8F-B199D0D4DF22</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CurrencyAmount" id="72E87C8A-5AE2-1214-E9BD-C1E76E67798A">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>64436CEF-41B7-6D6A-273D-0AA79FC1FEE8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UserAccountKey" id="764ADE7C-4742-0B94-F432-9C45EDDDAE17">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>940E5929-07BF-7ADD-BDDF-6B885E792A36</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4026A72B-92D1-3BD8-2CD2-86195B11F22C" referredColumn="950C6524-0D92-0C85-3AB0-D56B2ED82183"/>
+</associations>
+</Column>
+<Column name="EntityKey" id="0632A459-DBF1-57DB-F762-DAEB7B7AC5FB">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>0D63DD07-ED18-64F2-4D57-D754576CF3A0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7094DFB-2938-C442-2139-5FB1D511D595" referredColumn="1C8CAC9F-E36B-929F-8718-0BF2A94AC6C7"/>
+</associations>
+</Column>
+<Column name="CharacterStatisticKey" id="E78922C8-F978-4788-2C26-BFA4980917A6">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>AAF5C557-C0E8-6BC7-6522-7DA6156E645C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="291299CC-C7F2-0054-DB1C-CEDDCAE9D8E1" referredColumn="28D52E6B-158B-D8D8-3F9C-4543C3A5118F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="65FBFC64-CFC0-55D7-43A1-E8AEA435DC99" name="Character_PK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>647D79CE-6410-8733-DAAF-FACDCAADE4EA</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0632A459-DBF1-57DB-F762-DAEB7B7AC5FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60DAB9B3-D7F9-D87B-D357-3218796997BD" name="CharacterName_UN">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>1FAF71BB-5FF6-8872-550A-485D9411D547</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31BB597B-E850-94E7-BB38-548061B12BAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E715EAF-DE42-86D9-C8B4-4C68F45985CA" name="Character_BaseStatistic_FK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E78922C8-F978-4788-2C26-BFA4980917A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF059024-AE04-0DBC-7565-5EE66D6E50A7" name="Character_Entity_FK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0632A459-DBF1-57DB-F762-DAEB7B7AC5FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC4E62AF-E12E-FA1D-8713-E658D126F394" name="Character_User_FK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="764ADE7C-4742-0B94-F432-9C45EDDDAE17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

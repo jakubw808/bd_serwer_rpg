@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="01BF73D0-9219-CD1A-8CDD-DF4E83C008B8" name="MonsterLoot">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>F8547429-3EA8-A866-7FED-0DDBB197CB69</importedID>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EntityKey" id="AFB6004F-9F66-8AE3-3A2C-6EFBF06E8075">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:45:10 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>FFEC9F4D-35BD-0A9E-71C7-7F10FB07710E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E915497-8B9C-0720-DC6E-4D297FDF2E50" referredColumn="1ACAF485-783D-FB33-6BB6-FDA5DCC51961"/>
+</associations>
+</Column>
+<Column name="ItemKey" id="EB0B3FD4-9464-02B7-06B3-459EDFC711EF">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>BD986223-A1B4-48B7-7CBC-F68C435182E6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA8A2075-FE0F-A144-9BCF-BA4794D296E1" referredColumn="4A8F3946-E6EE-E81B-3A09-F314A6E965F0"/>
+</associations>
+</Column>
+<Column name="DropChance" id="84C7E244-EE4F-AED6-2094-E3499565EE39">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>2369135E-0F89-FBD1-7C2B-A43176EA7E6A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quantity" id="D0E91C4B-3620-EB18-8358-62337C1EC71A">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>71AD4381-9502-77AF-6FF2-6C8A581773E8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MonsterTemplateKey" id="4B82A8CA-47DD-C4CC-6B7B-108FED7FD84D">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>8F54816F-E478-BAF7-8C5A-F6494EB4394D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1AD339C5-44BD-3DDB-4031-9195959CAC8F" referredColumn="8BEE8003-A2C4-2037-D628-D6A4945D476C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="855CE8CE-AE4B-3117-3528-813842C38760" name="MonsterLoot_PK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>FF10781D-ED85-67BC-561B-B1E2D16D7CBD</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFB6004F-9F66-8AE3-3A2C-6EFBF06E8075"/>
+<colUsage columnID="EB0B3FD4-9464-02B7-06B3-459EDFC711EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B4F5F80-5AA6-A72B-A7C6-EC21EC6C31AD" name="MonsterLoot_Item_FK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB0B3FD4-9464-02B7-06B3-459EDFC711EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79D07491-EA91-00F5-5677-9536691D60F6" name="MonsterLoot_MonsterTemplate_FK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B82A8CA-47DD-C4CC-6B7B-108FED7FD84D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C2CFB30-26A6-716F-6699-2CE13A9D7B6F" name="MonsterLoot_Monster_FK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:45:10 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFB6004F-9F66-8AE3-3A2C-6EFBF06E8075"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

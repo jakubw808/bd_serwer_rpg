@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8937E627-D57F-08F9-D79E-3E93AD3B7D4B" name="CharacterInventory">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>9EDB564D-7ABB-F4F9-F2DD-A059B49BD87E</importedID>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EntityKey" id="6B99695F-302C-C4D3-1FA6-5D3AC9FCCF06">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>3C6A1446-9BAF-3EF0-2AFF-5A965AF1D2BC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="065ADB27-D36B-E3D5-81B4-975CDB1302CA" referredColumn="0632A459-DBF1-57DB-F762-DAEB7B7AC5FB"/>
+</associations>
+</Column>
+<Column name="Slot" id="9B9C2EF1-52C1-25C9-643C-0180CD363170">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>2028588F-FFA7-AFC2-B249-B81017C82628</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ItemKey" id="DDCA7C69-CF62-485B-3C37-A8BD47228B10">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>B1D64450-DCBB-6283-EEE1-39F24B83D90C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B5B5A02-AE8C-381E-C801-429993360558" referredColumn="4A8F3946-E6EE-E81B-3A09-F314A6E965F0"/>
+</associations>
+</Column>
+<Column name="Quantity" id="271AF56F-811D-F4BB-D31F-F8E80C587EC6">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>36E98084-093D-9612-AECF-823A871EA99B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1ABA4EE-66E4-4205-8230-C011FF91C2AE" name="CharacterInventory_PK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>2D90DCCF-4B8E-E423-5FC9-68416F562D4F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B99695F-302C-C4D3-1FA6-5D3AC9FCCF06"/>
+<colUsage columnID="9B9C2EF1-52C1-25C9-643C-0180CD363170"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97C2B7E1-68FE-B70E-43DA-207A8175C550" name="CharacterInventory_Character_FK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B99695F-302C-C4D3-1FA6-5D3AC9FCCF06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64421244-C607-037A-E3FB-798B222C1D47" name="CharacterInventory_Item_FK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDCA7C69-CF62-485B-3C37-A8BD47228B10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

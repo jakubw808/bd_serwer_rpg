@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84A34627-B665-5C80-E558-F17E79CCDF77" name="ItemModifier">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>A116A2D4-4045-7F05-8EBC-D7D3C222CEDE</importedID>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ItemKey" id="A03B6521-1FC0-5228-C7AB-6536870B6696">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>C2B1F739-BA09-400D-0B7A-22322BFDB94F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2F17189-B2CC-BA28-6AF6-F50EF9755D56" referredColumn="4A8F3946-E6EE-E81B-3A09-F314A6E965F0"/>
+</associations>
+</Column>
+<Column name="StatTypeKey" id="A438CD42-865F-409E-6A20-326665515050">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>78671ACD-D328-4C06-694C-170C16105A59</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE17E9BF-9579-6814-AE74-4F9EF1344EC5" referredColumn="DACB42AE-30A2-5F49-5B73-1A9B3B4BBB85"/>
+</associations>
+</Column>
+<Column name="ModifierValue" id="F6FC1C76-C18E-BDFA-C8EB-9BE3644DF74F">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>0F1A718E-C534-EF96-06A7-88BF2A0D8020</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="14C74F4A-AABD-BC42-6E54-03F5F213A3C8" name="ItemModifier_PK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>DA544CD0-31B8-2858-0942-67565AD34CF1</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A03B6521-1FC0-5228-C7AB-6536870B6696"/>
+<colUsage columnID="A438CD42-865F-409E-6A20-326665515050"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5900CB0-4A53-0F0E-FD14-C056F44363AE" name="ItemModifier_Item_FK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A03B6521-1FC0-5228-C7AB-6536870B6696"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7898697-CAE8-1FF6-EEF2-CE01322BF7DC" name="ItemModifier_ItemStatType_FK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A438CD42-865F-409E-6A20-326665515050"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

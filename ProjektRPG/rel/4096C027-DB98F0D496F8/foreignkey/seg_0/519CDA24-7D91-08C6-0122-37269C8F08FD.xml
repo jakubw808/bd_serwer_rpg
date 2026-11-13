@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="519CDA24-7D91-08C6-0122-37269C8F08FD" containerWithKeyObject="6F8C4A9F-DE55-932A-A511-DE0C2D674C39" localFKIndex="A7AC6A70-39BD-A4FC-E717-03BEB30985AA" name="CharacterQuest_CharacterQuestStatus_FK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:45:10 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>B0B34D53-CD9D-E684-4395-C4A9EC65F2AF</importedID>
+<referredTableLongName>CharacterQuestStatus</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>234C9C88-E13D-FD58-D4E8-43F5C6FBDBDA</referredTableID>
+<keyObject>0E215C32-0C8A-AC47-0A62-DE8E1411E1D2</keyObject>
+<referredKeyID>0E215C32-0C8A-AC47-0A62-DE8E1411E1D2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CharacterQuestStatusKey</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
