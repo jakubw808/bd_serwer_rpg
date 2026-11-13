@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A298E623-9010-8318-2148-B7AA05C41041" name="ItemRarity">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 16:05:58 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>AA18D3D1-F3D9-61A4-96A3-C20F67ED24A8</importedID>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ItemRarityKey" id="F3DFE11C-2294-9D44-5323-43DE66AA5EE9">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 16:05:58 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>A8FFAD0F-9B05-0027-2C2E-A3E01B13B137</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<ownDataTypeParameters>,16,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ItemRarityName" id="D6F29C31-B465-D8A4-EE21-E1310E48B336">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 16:05:58 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>F9278E08-1BC3-40ED-3FEE-7874CA904202</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3DCCF69E-F405-3611-2CF5-F57AA9CE01FD" name="ItemRarity_PK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 16:05:58 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>1828E6E3-4117-28FC-D782-8D439311A33D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3DFE11C-2294-9D44-5323-43DE66AA5EE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45FA4ED9-24A4-D821-3619-ECA847344DEA" name="ItemRarityName_UN">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 16:05:58 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>73FD1FF7-675E-ECB7-C83B-930DE9FE1114</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6F29C31-B465-D8A4-EE21-E1310E48B336"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

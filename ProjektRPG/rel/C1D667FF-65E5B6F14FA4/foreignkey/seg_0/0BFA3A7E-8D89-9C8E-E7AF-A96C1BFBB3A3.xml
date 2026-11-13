@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0BFA3A7E-8D89-9C8E-E7AF-A96C1BFBB3A3" containerWithKeyObject="234417B6-B915-AF75-0EFC-62A26791EFC3" localFKIndex="B3FD6848-A9A9-3623-5B3C-AEE5AD34B35D" name="MonsterSpawn_MonsterTemplate_FK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 16:05:58 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>87269EAD-21A7-83E2-374F-A1B523E46E51</importedID>
+<referredTableLongName>MonsterTemplate</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8EE9341F-5E44-FFB7-D287-7A52BE562D36</referredTableID>
+<keyObject>B5ED48F8-973E-9C1D-3C04-943BE2339BAA</keyObject>
+<referredKeyID>B5ED48F8-973E-9C1D-3C04-943BE2339BAA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MonsterTemplateKey</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

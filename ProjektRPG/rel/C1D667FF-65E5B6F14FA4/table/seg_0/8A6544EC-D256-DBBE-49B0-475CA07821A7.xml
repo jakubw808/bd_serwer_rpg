@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A6544EC-D256-DBBE-49B0-475CA07821A7" name="UserLogs">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 16:05:58 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>0E87F3CD-2DDE-E502-2B52-25E5733EFF74</importedID>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UserLoginKey" id="20B54A66-8C55-6E42-A960-1B3C21F738DC">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 16:05:58 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>B528DA2C-B24D-0731-A9F5-7A761CD4D6D8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LoginTime" id="8A995416-A2E9-679E-5CF1-EEFBC1211CFE">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 16:05:58 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>6CDBF205-8178-19F8-9B6C-8066290621C0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LoginIP" id="DBF73BF4-66F9-1466-6BBE-75AB718C0055">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 16:05:58 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>A96DB82F-8A3D-78C0-E55E-D78F53FF9AB8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LogoutTime" id="88094FF7-8756-9E20-EAD7-D9E16E8EF706">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 16:05:58 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>E87CAE65-62ED-DC14-EE38-D7B1A18CD9CE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UserAccountKey" id="0FC10F5E-914E-376B-2D06-4D59037E2241">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 16:05:58 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>2543839E-74A5-56DF-2B63-EEB140A0B623</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C81917FB-75CE-B176-60A2-63FA2BF1F13D" referredColumn="00CFAB7B-9794-BC59-FB31-A5234547010D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C853A97B-4AB0-026C-4C69-173E421AF5E9" name="UserLogin_PKv1">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 16:05:58 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>6A5344A3-F724-7A9C-8D39-3F00ADEE05AC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20B54A66-8C55-6E42-A960-1B3C21F738DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5740718B-9CC2-C740-3047-298CA2CC3C40" name="UserLogin_User_FKv1">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 16:05:58 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FC10F5E-914E-376B-2D06-4D59037E2241"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

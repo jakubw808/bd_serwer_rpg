@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8563C1E-59C5-C4BC-727A-4760C0A39768" name="VendorInventory">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 16:05:58 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>A5D0239B-EF76-1D20-E24A-6419194C5432</importedID>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EntityKey" id="89B86C63-2F24-7FF9-04DF-53513D1FFF96">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 16:05:58 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>10144609-51D9-6E11-87A8-3DB9FACD6F36</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4DA00C83-676F-9A0D-7B92-40641D8C0530" referredColumn="4AAFFC55-80D4-8655-6A3C-5204EE1B6813"/>
+</associations>
+</Column>
+<Column name="ItemKey" id="47755579-E3FB-629C-EEC3-3418F5FB0E7B">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 16:05:58 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>9D936E65-B81F-350F-3832-D6FB64697226</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C75FD1E-3918-C21D-67F7-722801CF766B" referredColumn="9F934603-5EDE-7407-10CC-6CC3606403C1"/>
+</associations>
+</Column>
+<Column name="RequiredLevel" id="ABEDFCB2-E3DA-4A28-FBE4-ACAE36BD541D">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 16:05:58 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>BE48E969-939F-3FE1-C6F6-51B6154C76B8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IsInStock" id="DB1BCA4E-7874-593A-E6ED-A4E02D4B06DC">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 16:05:58 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>844F5145-9333-5134-BD80-B90A7CCA0D1D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40895C4C-9832-7D8D-F8C6-5A7C0D64074C" name="VendorInventory_PK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 16:05:58 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>ADA11FA4-F4C6-FBA3-DE84-B66E03517CAC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89B86C63-2F24-7FF9-04DF-53513D1FFF96"/>
+<colUsage columnID="47755579-E3FB-629C-EEC3-3418F5FB0E7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C55AF3D5-DD39-3471-E7DC-10E11AF77255" name="VendorInventory_Item_FK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 16:05:58 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47755579-E3FB-629C-EEC3-3418F5FB0E7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="425D85E9-2E9C-F1E9-D1C0-5EC9AB757D81" name="VendorInventory_VendorNPC_FK">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 16:05:58 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89B86C63-2F24-7FF9-04DF-53513D1FFF96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

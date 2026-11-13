@@ -65,35 +65,86 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>18</dataTypePrecision>
-<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="658BEE70-3ED1-62ED-E0A6-C02929375105" referredColumn="28D52E6B-158B-D8D8-3F9C-4543C3A5118F"/>
-</associations>
+</Column>
+<Column name="Strength" id="6050F3F3-0A56-C052-2A67-8A00E25D0EA6">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 17:57:03 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vitality" id="7BAC49AD-68C6-D86B-C955-A840AA1BFE31">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 17:57:03 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Armor" id="2BD6E051-EEAA-EF71-FCE3-F391B40B4026">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 17:57:03 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MagicArmor" id="EFB9B3DF-611A-FF5B-0B2E-763AA01489A9">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 17:57:03 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MagicAttack" id="DF5BA931-8DC9-216F-F005-0B5644837A0A">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 17:57:03 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Speed" id="7F233B9C-2575-909D-C833-A1A11F283564">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 17:57:03 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="86153710-DEB7-664D-2207-11A2CA70C128" name="MonsterTemplate_PK">
+<ind_PK_UK id="DB763E80-5BD6-7CDE-1AA5-0362B23A088F" name="MonsterTemplate_PK">
 <createdBy>miodzio</createdBy>
-<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<createdTime>2026-11-13 18:07:36 UTC</createdTime>
 <ownerDesignName>ProjektRPG</ownerDesignName>
-<importedID>CAEDBFD3-5CA5-F21C-B367-01CF572891BA</importedID>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8BEE8003-A2C4-2037-D628-D6A4945D476C"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="5CE7B19F-E0EF-D3E9-6206-F293A3F69E63" name="MonsterTemplate_BaseStatistic_FK">
-<createdBy>miodzio</createdBy>
-<createdTime>2026-11-13 15:40:02 UTC</createdTime>
-<ownerDesignName>ProjektRPG</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="DA9A7FC9-94FD-677E-98C3-BB5B23DEB982"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

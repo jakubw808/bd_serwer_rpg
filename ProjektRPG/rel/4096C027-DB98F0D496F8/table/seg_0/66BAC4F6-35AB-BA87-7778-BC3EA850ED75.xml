@@ -9,6 +9,36 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EntityKey" id="1ACAF485-783D-FB33-6BB6-FDA5DCC51961">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>9B3788B5-87E9-73DC-56AB-69446A84A9F9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2EA54EE-5CB0-312D-6175-B79A2AFE0265" referredColumn="1C8CAC9F-E36B-929F-8718-0BF2A94AC6C7"/>
+</associations>
+</Column>
+<Column name="MonsterTemplateKey" id="60506425-15D5-0597-54FF-15D4B7D11805">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>18E2508B-728D-B01E-58E6-17F20AAE945E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C054D02-826C-DF91-DBFF-1D035ADFC470" referredColumn="8BEE8003-A2C4-2037-D628-D6A4945D476C"/>
+</associations>
+</Column>
 <Column name="MonsterName" id="28F2BC91-D58D-E19B-3BFC-9D3E08FF2EB8">
 <createdBy>miodzio</createdBy>
 <createdTime>2026-11-13 15:45:10 UTC</createdTime>
@@ -32,36 +62,6 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="EntityKey" id="1ACAF485-783D-FB33-6BB6-FDA5DCC51961">
-<createdBy>miodzio</createdBy>
-<createdTime>2026-11-13 15:40:02 UTC</createdTime>
-<ownerDesignName>ProjektRPG</ownerDesignName>
-<importedID>9B3788B5-87E9-73DC-56AB-69446A84A9F9</importedID>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>18</dataTypePrecision>
-<ownDataTypeParameters>,18,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="E2EA54EE-5CB0-312D-6175-B79A2AFE0265" referredColumn="1C8CAC9F-E36B-929F-8718-0BF2A94AC6C7"/>
-</associations>
-</Column>
-<Column name="MonsterTemplateKey" id="60506425-15D5-0597-54FF-15D4B7D11805">
-<createdBy>miodzio</createdBy>
-<createdTime>2026-11-13 15:40:02 UTC</createdTime>
-<ownerDesignName>ProjektRPG</ownerDesignName>
-<importedID>18E2508B-728D-B01E-58E6-17F20AAE945E</importedID>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>15</dataTypePrecision>
-<ownDataTypeParameters>,15,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="3D275A06-D11C-9D7D-3125-6264769FB9B5" referredColumn="8BEE8003-A2C4-2037-D628-D6A4945D476C"/>
-</associations>
 </Column>
 <Column name="CurrentHP" id="C4159279-1D21-4603-29CE-83785148EDC1">
 <createdBy>miodzio</createdBy>
@@ -101,17 +101,6 @@
 <colUsage columnID="1ACAF485-783D-FB33-6BB6-FDA5DCC51961"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="260E372E-98C2-5084-A67C-25314534CC95" name="MonsterName_UN">
-<createdBy>miodzio</createdBy>
-<createdTime>2026-11-13 15:45:10 UTC</createdTime>
-<ownerDesignName>ProjektRPG</ownerDesignName>
-<importedID>9FFCBAF4-2C6A-6B8B-B267-8EB1F991D0C5</importedID>
-<indexState>Unique Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="28F2BC91-D58D-E19B-3BFC-9D3E08FF2EB8"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="C54D4A03-FDCB-1BBF-4007-10EDD1F3DE7A" name="Monster_Entity_FK">
 <createdBy>miodzio</createdBy>
 <createdTime>2026-11-13 15:40:02 UTC</createdTime>
@@ -122,9 +111,9 @@
 <colUsage columnID="1ACAF485-783D-FB33-6BB6-FDA5DCC51961"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="90011E2E-836F-9871-DC37-B3FAB2A8FB03" name="Monster_MonsterTemplate_FK">
+<ind_PK_UK id="FE0E91CA-5D70-0D82-8D4B-1876677BF433" name="Monster_MonsterTemplate_FK">
 <createdBy>miodzio</createdBy>
-<createdTime>2026-11-13 15:40:02 UTC</createdTime>
+<createdTime>2026-11-13 18:07:45 UTC</createdTime>
 <ownerDesignName>ProjektRPG</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>

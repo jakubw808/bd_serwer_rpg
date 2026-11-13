@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DCB4FE6F-2217-F2DC-BAAC-5EAF59B84E70" containerWithKeyObject="3457587C-1CCD-1E34-02B7-92D6F84A48A0" localFKIndex="C4A13E35-9197-273B-B76D-A50E8090DC48" name="Quest_QuestNPC_FKv2">
+<createdBy>miodzio</createdBy>
+<createdTime>2026-11-13 16:05:58 UTC</createdTime>
+<ownerDesignName>ProjektRPG</ownerDesignName>
+<importedID>FEB33C20-93B2-D804-4A8A-509DAD54C044</importedID>
+<referredTableLongName>QuestNPC</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8898DA12-5D2C-4E1B-7C55-1546DBAF2641</referredTableID>
+<keyObject>73CF0742-0F8E-5796-DE51-F76F3E832855</keyObject>
+<referredKeyID>73CF0742-0F8E-5796-DE51-F76F3E832855</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>EntityKey</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

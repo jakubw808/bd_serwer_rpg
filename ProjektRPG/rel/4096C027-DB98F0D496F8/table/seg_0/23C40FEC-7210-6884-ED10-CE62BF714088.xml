@@ -9,32 +9,16 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="SpawnKey" id="6A5843CE-133B-CE74-4CE1-14D9426E0338">
-<createdBy>miodzio</createdBy>
-<createdTime>2026-11-13 15:45:10 UTC</createdTime>
-<ownerDesignName>ProjektRPG</ownerDesignName>
-<importedID>759CC27B-7818-FC0E-5520-C8149F262FF2</importedID>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>18</dataTypePrecision>
-<ownDataTypeParameters>,18,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="EntityKey" id="F39C0F7B-46A1-8D2D-BCCC-5168CA56CCF9">
+<Column name="MonsterTemplateKey" id="F6C1D7BD-9A80-DD2B-FE6E-9792B44B852D">
 <createdBy>miodzio</createdBy>
 <createdTime>2026-11-13 15:40:02 UTC</createdTime>
 <ownerDesignName>ProjektRPG</ownerDesignName>
-<importedID>EE4CCE5C-2D4D-B863-41D1-64987841D5A7</importedID>
+<importedID>069A5232-70CC-8B79-70E1-5C8CAE7A18D4</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>18</dataTypePrecision>
-<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="72262751-8563-8383-FF5E-23FC43BC39C0" referredColumn="1ACAF485-783D-FB33-6BB6-FDA5DCC51961"/>
-</associations>
 </Column>
 <Column name="LocationKey" id="7EFD9A97-1582-E116-32C0-46CDFE49581B">
 <createdBy>miodzio</createdBy>
@@ -45,37 +29,10 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>18</dataTypePrecision>
-<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="72262751-8563-8383-FF5E-23FC43BC39C0" referredColumn="0791F3C4-6A30-7444-5708-B7EA95ECE82C"/>
-</associations>
-</Column>
-<Column name="SpawnCoordinates" id="B0B71508-BB88-5D3E-63A9-27C3C3876E16">
-<createdBy>miodzio</createdBy>
-<createdTime>2026-11-13 15:45:10 UTC</createdTime>
-<ownerDesignName>ProjektRPG</ownerDesignName>
-<importedID>0CA7C5DD-E935-685F-9EE1-3A8E913618A7</importedID>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="MonsterTemplateKey" id="F6C1D7BD-9A80-DD2B-FE6E-9792B44B852D">
-<createdBy>miodzio</createdBy>
-<createdTime>2026-11-13 15:40:02 UTC</createdTime>
-<ownerDesignName>ProjektRPG</ownerDesignName>
-<importedID>069A5232-70CC-8B79-70E1-5C8CAE7A18D4</importedID>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>15</dataTypePrecision>
-<ownDataTypeParameters>,15,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="87269EAD-21A7-83E2-374F-A1B523E46E51" referredColumn="8BEE8003-A2C4-2037-D628-D6A4945D476C"/>
 </associations>
 </Column>
 <Column name="SpawnCoordinateX" id="CCDA6B01-6010-B8CA-A218-3BFDA5BDBCF6">
@@ -125,7 +82,10 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6A5843CE-133B-CE74-4CE1-14D9426E0338"/>
+<colUsage columnID="7EFD9A97-1582-E116-32C0-46CDFE49581B"/>
+<colUsage columnID="F6C1D7BD-9A80-DD2B-FE6E-9792B44B852D"/>
+<colUsage columnID="46DD8F65-FD7C-5175-DF43-30BAF346D70A"/>
+<colUsage columnID="CCDA6B01-6010-B8CA-A218-3BFDA5BDBCF6"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="C7C6F824-E6B1-07BE-E41E-9E17A3897D10" name="MonsterSpawn_Monster_FK">
@@ -136,16 +96,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="7EFD9A97-1582-E116-32C0-46CDFE49581B"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="BBA8AAC9-B49D-25F3-E5F3-9458A17CAC94" name="MonsterSpawn_MonsterTemplate_FK">
-<createdBy>miodzio</createdBy>
-<createdTime>2026-11-13 15:40:02 UTC</createdTime>
-<ownerDesignName>ProjektRPG</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="F6C1D7BD-9A80-DD2B-FE6E-9792B44B852D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

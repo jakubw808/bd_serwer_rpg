@@ -9,20 +9,16 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="EntityKey" id="AFB6004F-9F66-8AE3-3A2C-6EFBF06E8075">
+<Column name="MonsterTemplateKey" id="4B82A8CA-47DD-C4CC-6B7B-108FED7FD84D">
 <createdBy>miodzio</createdBy>
-<createdTime>2026-11-13 15:45:10 UTC</createdTime>
+<createdTime>2026-11-13 15:40:02 UTC</createdTime>
 <ownerDesignName>ProjektRPG</ownerDesignName>
-<importedID>FFEC9F4D-35BD-0A9E-71C7-7F10FB07710E</importedID>
+<importedID>8F54816F-E478-BAF7-8C5A-F6494EB4394D</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>18</dataTypePrecision>
-<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="1E915497-8B9C-0720-DC6E-4D297FDF2E50" referredColumn="1ACAF485-783D-FB33-6BB6-FDA5DCC51961"/>
-</associations>
 </Column>
 <Column name="ItemKey" id="EB0B3FD4-9464-02B7-06B3-459EDFC711EF">
 <createdBy>miodzio</createdBy>
@@ -33,7 +29,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>15</dataTypePrecision>
-<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="AA8A2075-FE0F-A144-9BCF-BA4794D296E1" referredColumn="4A8F3946-E6EE-E81B-3A09-F314A6E965F0"/>
@@ -64,21 +60,6 @@
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="MonsterTemplateKey" id="4B82A8CA-47DD-C4CC-6B7B-108FED7FD84D">
-<createdBy>miodzio</createdBy>
-<createdTime>2026-11-13 15:40:02 UTC</createdTime>
-<ownerDesignName>ProjektRPG</ownerDesignName>
-<importedID>8F54816F-E478-BAF7-8C5A-F6494EB4394D</importedID>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>15</dataTypePrecision>
-<ownDataTypeParameters>,15,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="1AD339C5-44BD-3DDB-4031-9195959CAC8F" referredColumn="8BEE8003-A2C4-2037-D628-D6A4945D476C"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="855CE8CE-AE4B-3117-3528-813842C38760" name="MonsterLoot_PK">
@@ -90,8 +71,8 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="AFB6004F-9F66-8AE3-3A2C-6EFBF06E8075"/>
 <colUsage columnID="EB0B3FD4-9464-02B7-06B3-459EDFC711EF"/>
+<colUsage columnID="4B82A8CA-47DD-C4CC-6B7B-108FED7FD84D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="3B4F5F80-5AA6-A72B-A7C6-EC21EC6C31AD" name="MonsterLoot_Item_FK">
@@ -102,26 +83,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="EB0B3FD4-9464-02B7-06B3-459EDFC711EF"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="79D07491-EA91-00F5-5677-9536691D60F6" name="MonsterLoot_MonsterTemplate_FK">
-<createdBy>miodzio</createdBy>
-<createdTime>2026-11-13 15:40:02 UTC</createdTime>
-<ownerDesignName>ProjektRPG</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="4B82A8CA-47DD-C4CC-6B7B-108FED7FD84D"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="5C2CFB30-26A6-716F-6699-2CE13A9D7B6F" name="MonsterLoot_Monster_FK">
-<createdBy>miodzio</createdBy>
-<createdTime>2026-11-13 15:45:10 UTC</createdTime>
-<ownerDesignName>ProjektRPG</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="AFB6004F-9F66-8AE3-3A2C-6EFBF06E8075"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -21,5 +21,8 @@
 <designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="47874A68-CA07-1500-8491-3E3E9CE32ED9">
 <designStoragePath>/home/miodzio/temp_projekt/ProjektRPG</designStoragePath>
 </designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="B8DF275E-3573-207D-4C58-30E81AB68421">
+<designStoragePath>/home/miodzio/Projekty/bd_rpg/ProjektRPG</designStoragePath>
+</designDescr>
 </usedDesignStorageDescriptors>
 </OSDM_Design>

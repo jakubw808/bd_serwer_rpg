@@ -4,7 +4,7 @@
 <createdTime>2026-11-13 15:40:02 UTC</createdTime>
 <ownerDesignName>ProjektRPG</ownerDesignName>
 <importedID>B9132BBF-51C2-8B1C-4024-8E6B9D4F19AA</importedID>
-<referredTableLongName>BaseStatistic</referredTableLongName>
+<referredTableLongName>CharacterStatistics</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>811AEFC2-5E61-B92C-F7B4-3DA51FE184B0</referredTableID>
 <keyObject>AC65D474-F68D-A004-4197-B77F92956D14</keyObject>
